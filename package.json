@@ -1,13 +1,13 @@
 {
-    "name": "pbwebmap-snippets",
-    "displayName": "pbwebmap-snippets",
-    "description": "Code snippets for code migrated from Powerbuilder to Angular and HTML5",
+    "name": "wfwebmap-snippets",
+    "displayName": "WFNET WebMap Snippets",
+    "description": "Code snippets for code migrated from Powerbuilder VB6 or WinForms to Angular and HTML5",
     "logo":"images/logo.png",
     "version": "0.0.2",
     "publisher":"mrojas",
     "repository": {
         "type": "git",
-        "url": "https://github.com/orellabac/pbwebmap-snippets.git"
+        "url": "https://github.com/orellabac/wfwebmap-snippets.git"
       },
     "engines": {
         "vscode": "^1.40.0"
