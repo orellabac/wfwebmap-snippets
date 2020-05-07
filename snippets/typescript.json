@@ -1,7 +1,7 @@
 {
     "Angular Component": {
       "prefix": "wm-window",
-      "description": "PowerBuilder Component",
+      "description": "WFNet Component",
       "body": [
         "import { Component, OnInit, ChangeDetectorRef, Renderer2, ElementRef, ViewEncapsulation} from \"@angular/core\";",
         "    import { EventData, dataTransfer} from \"@mobilize/base-components\";",
