@@ -31,7 +31,7 @@
             "  private void InitializeComponent()",
             "  {",
             "     $0",
-            "     this.FormBorderStlye = FormBorderStyle.FixedDialog;",
+            "     this.FormBorderStyle = FormBorderStyle.FixedDialog;",
             "     this.MaximizeBox = true;",
             "     this.MinimizeBox = true;",
             "     this.Name = \"${1:ClassName}\";",
@@ -44,7 +44,7 @@
             "  {",
             "  }",
             "",
-            "  private void Form_Close(object sender, EventArgs eventArgs)",
+            "  private void Form_Closed(object sender, EventArgs eventArgs)",
             "  {",
             "  }",
             "}"
