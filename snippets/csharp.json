@@ -11,8 +11,8 @@
     "wm-prop": {
         "prefix":"wm-prop",
         "body":[
-            "  [Intercepted]",
-            "  public ${1:type} ${2:name} {get;set;} = new ${1:type}();"
+            "[Intercepted]",
+            "public ${1:type} ${2:name} {get;set;} = new ${1:type}();"
         ],
         "description":"Adds a new property"
     },
