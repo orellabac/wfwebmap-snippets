@@ -4,8 +4,9 @@
       "description": "PowerBuilder Component",
       "body": [
         "import { Component, OnInit, ChangeDetectorRef, Renderer2, ElementRef, ViewEncapsulation} from \"@angular/core\";",
-        "    import { dataTransfer} from \"@mobilize/base-components\";",
-        "    import { BaseControlComponent, LengthConverter} from \"@mobilize/powercomponents\";",
+        "    import { EventData, dataTransfer} from \"@mobilize/base-components\";",
+        "    import { FormComponent } from \"@mobilize/winforms-components\";",        
+        "    import { WebMapServices } from \"@mobilize/angularclient\";",                
         "    @Component({",
         "       selector : \"${1:selector-name}\",",
         "       templateUrl : \"${2:name}.component.html\",",
@@ -13,12 +14,10 @@
         "       encapsulation : ViewEncapsulation.None",
         "    })",
         "    @dataTransfer([\"${3:project}${2:name}\"])",
-        "    export class WM${4:ComponentClass} extends BaseControlComponent implements OnInit {",
-        "       constructor (changeDetector : ChangeDetectorRef,render2 : Renderer2,elem : ElementRef,lengthConverter : LengthConverter) {",
-        "          super(changeDetector,render2,elem,lengthConverter);",
-        "       }",
-        "       ngOnInit () {",
-        "          super.ngOnInit();",
+        "    export class ${4:ComponentClass} extends FormComponent {",
+        "       protected webServices: WebMapService;",
+        "       constructor (wmservice: WebMapService, changeDetector: ChangeDetectorRef, render2: Rendered2, elem:ElementRef) {",
+        "          super(wmservice, changeDetector, render2, elem);",
         "       }",
         "    }"
       ]

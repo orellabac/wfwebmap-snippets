@@ -34,7 +34,13 @@ Alternatively, press `Ctrl` + `Space` (Window, Linux) or `Cmd`+`Space` (macOS)
 
 | Snippets                                              | Purpose                         |
 | ------------------------------------------------------|---------------------------------|
-| `wm-window`                                           |                                 |
+| `wm-window`                                           | Window Component                |
+
+
+### CSharp Snippets
+| `wm-window`                                           | Window Component                |
+| `wm-prop`                                             | Property                        |
+| `wm-using`                                            | usings                        |
 
 ## Installation
 
