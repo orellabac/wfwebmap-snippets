@@ -1,5 +1,77 @@
 {
-    "window": {
+  "Adodc": {
+    "prefix": "wm-adodatacontrol",
+    "body": [
+      "<wm-adodatacontrol id=\"${1:id}\" [model]=\"model.${1:id}\" class=\"${1:id}\">",
+      "</wm-adodatacontrol>"
+      ],
+    "description": "Angular Data Control Control"
+  },
+  "Button": {
+    "prefix": "wm-button",
+    "body": ["<wm-button id=\"${1:id}\" [model]=\"model.${1:id}\" class=\"${1:id}\"></wm-button>"],
+    "description": "Angular Button"
+  },
+  "Checkbox": {
+    "prefix": "wm-checkbox",
+    "body": ["<wm-checkbox id=\"${1:id}\" [model]=\"model.${1:id}\" class=\"${1:id}\"></wm-checkbox>"],
+    "description": "Angular CheckBox"
+  },
+  "ComboBox": {
+    "prefix": "wm-combobox",
+    "body": ["<wm-combobox id=\"${1:id}\" [model]=\"model.${1:id}\" class=\"${1:id}\"></wm-combobox>"],
+    "description": "Angular ComboBox"
+  },
+  "Flexgrid": {
+    "prefix": "wm-datagridviewflex",
+    "body": [
+      "<wm-datagridviewflex id=\"${1:id}\" [model]=\"model.${1:id}\" class=\"${1:id}\">",
+      "</wm-datagridviewflex>"
+      ],
+    "description": "Angular FlexGrid Control"
+  },
+  "Groupbox": {
+    "prefix": "wm-groupbox",
+    "body": [
+      "<wm-groupbox id=\"${1:id}\" [model]=\"model.${1:id}\" class=\"${1:id}\" z-index=\"-1\">",
+      "$0",
+      "</wm-groupbox>"],
+    "description": "Angular GroupBox "
+  },
+  "Label": {
+    "prefix": "wm-label",
+    "body": ["<wm-label id=\"${1:id}\" [model]=\"model.${1:id}\" class=\"${1:id}\"></wm-label>"],
+    "description": "Angular Label"
+  },
+  "Listview": {
+    "prefix": "wm-listview",
+    "body": ["<wm-listview id=\"${1:id}\" [model]=\"model.${1:id}\" class=\"${1:id}\"></wm-listview>"],
+    "description": "Angular Listview"
+  },
+  "PictureBox": {
+    "prefix": "wm-picturebox",
+    "body": ["<wm-picturebox id=\"${1:id}\" [model]=\"model.${1:id}\" class=\"${1:id}\"></wm-picturebox>"],
+    "description": "Angular PictureBox"
+  },
+  "Status": {
+    "prefix": "wm-statusstrip",
+    "body": ["<wm-statusstrip id=\"${1:id}\" [model]=\"model.${1:id}\" class=\"${1:id}\"></wm-statusstrip>"],
+    "description": "Angular Status Strip"
+  },
+  "Textbox": {
+    "prefix": "wm-textbox",
+    "body": ["<wm-textbox id=\"${1:id}\" [model]=\"model.${1:id}\" class=\"${1:id}\"></wm-textbox>"],
+    "description": "Angular Textbox"
+  }, 
+  "Toolstrip": {
+    "prefix": "wm-toolstrip",
+    "body": [
+      "<wm-toolstrip id=\"${1:id}\" [model]=\"model.${1:id}\" class=\"${1:id}\">",
+      "</wm-toolstrip>"
+      ],
+    "description": "Angular ToolStrip Control"
+  },
+  "Window": {
       "prefix": "wm-window",
       "body": [
         "<div *ngIf=\"model\">",
@@ -12,98 +84,6 @@
         "\t</wm-window>",
         "</div>"
       ],
-      "description": "PowerBuilder Angular Window"
-    },
-    "DropDownList": {
-      "prefix": "wm-dropdownlist",
-      "body": ["<wm-dropdownlist id=\"${1:id}\" [model]=\"model.${1:id}\" class=\"${1:id}\"></wm-dropdownlist>"],
-      "description": "PowerBuilder Angular DropDown List"
-    },
-    "Checkbox": {
-      "prefix": "wm-checkbox",
-      "body": ["<wm-checkbox id=\"${1:id}\" [model]=\"model.${1:id}\" class=\"${1:id}\"></wm-checkbox>"],
-      "description": "PowerBuilder Angular CheckBox"
-    },
-    "Commandbutton": {
-      "prefix": "wm-command-button",
-      "body": ["<wm-command-button id=\"${1:id}\" [model]=\"model.${1:id}\" class=\"${1:id}\"></wm-command-button>"],
-      "description": "PowerBuilder Angular Command Button"
-    },
-    "Groupbox": {
-      "prefix": "wm-group-box",
-      "body": [
-        "<wm-group-box id=\"${1:id}\" [model]=\"model.${1:id}\" class=\"${1:id}\" z-indez=\"-1\">",
-        "</wm-group-box>"],
-      "description": "PowerBuilder Angular GroupBox "
-    },
-    "LineEdit": {
-      "prefix": "wm-single-line-edit",
-      "body": ["<wm-single-line-edit id=\"${1:id}\" [model]=\"model.${1:id}\" class=\"${1:id}\"></wm-single-line-edit>"],
-      "description": "PowerBuilder Angular Single Line Edit"
-    },
-    "TabControl": {
-      "prefix": "wm-tabcontrol",
-      "body": [
-        "<wm-tabcontrol id=\"${1:id}\" [model]=\"model.${1:id}\" class=\"${1:id}\">",
-        "</wm-tabcontrol>"
-        ],
-      "description": "PowerBuilder Angular TabControl Control"
-    },
-    "TabPage": {
-      "prefix": "wm-tabpage",
-      "body": [
-        "<wm-tabpage id=\"${1:id}\" [model]=\"model.${1:id}\" class=\"${1:id}\">",
-        "  <ng-template #tabpage>",
-        "  </ng-template>",
-        "</wm-tabpage>"
-        ],
-      "description": "PowerBuilder Angular TabPage Control"
-    },
-
-    "datamanager": {
-      "prefix": "wm-data-manager",
-      "body": [
-        "<wm-data-manager-control id=\"${1:id}\" [model]=\"model.${1:id}\" class=\"${1:id}\">",
-        "</wm-data-manager-control>"
-        ],
-      "description": "PowerBuilder Angular Data Manager Control"
-    },
-    "wm-dw-column": {
-      "prefix": "wm-dw-column",
-      "body": [
-        "<wm-dw-column id=\"${1:id}\" [model]=\"model.${1:id}\" class=\"${1:id}\" [dataManagerContext]=\"context\"></wm-dw-column>"
-      ],
-      "description": "PowerBuilder Angular Data Manager Column"
-    },
-    "wm-dw-compute": {
-      "prefix": "wm-dw-compute",
-      "body": [
-        "<wm-dw-compute id=\"${1:id}\" [model]=\"model.${1:id}\" class=\"${1:id}\" [dataManagerContext]=\"context\"></wm-dw-compute>"
-      ],
-      "description": "PowerBuilder Angular Data Manager Compute"
-    },
-    "wm-static-text": {
-      "prefix": "wm-static-text",
-      "body": [
-        "<wm-static-text id=\"${1:id}\" [model]=\"model.${1:id}\" class=\"${1:id}\"></wm-static-text>"
-      ],
-      "description": "PowerBuilder Angular Data Manager Column"
-    },
-    "wm-freeform": {
-      "prefix": "wm-freeform",
-      "body": [
-        "<wm-freeform [model]=\"model\" id=\"${1:id}\" class=\"${1:id}\">",
-        "  <ng-template #footer let-context=\"contextFooter\">",
-        "  </ng-template>",
-        "  <ng-template #summary let-context=\"contextSummary\">",
-        "  </ng-template>",
-        "  <ng-template #details let-context=\"context\">",
-        "  </ng-template>",
-        "  <ng-template #header let-context=\"contextHeader\">",
-        "  </ng-template>",
-        "</wm-freeform>"
-      ],
-      "description": "Powerbuilder Angular FreeFrom DataManager"
+      "description": "Angular Window"
     }
-
   }

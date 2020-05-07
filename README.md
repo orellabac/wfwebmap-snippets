@@ -12,29 +12,29 @@ Alternatively, press `Ctrl` + `Space` (Window, Linux) or `Cmd`+`Space` (macOS)
 
 ### Command Palette Commands
 
-### TypeScript Angular Snippets
+### HTML Angular Snippets
 
 | Snippets                                              | Purpose                         |
 | ------------------------------------------------------|---------------------------------|
-| `wm-command-button"`                                  | Command Button Control          |
-| `wm-data-manager`                                     | Data Manager Control            |
-| `wm-dropdownlist`                                     | Drop Down List Control          |
-| `wm-dw-column`                                        | Data Manager Column             |
-| `wm-dw-compute`                                       | Data Manager Compute Column     |
-| `wm-freeform`                                         | Free From Data Manager          |
-| `wm-group-box`                                        | Groupbox Control                |
-| `wm-single-line-edit`                                 | Single Line Edit Control        |
-| `wm-static-text"`                                     | Static Text Control             |
-| `wm-tabcontrol"`                                      | Tab Control                     |
-| `wm-tabpage`                                          | TabPage Control                 |
+| `wm-adodatacontrol`                                   | ADO Data Control                |
+| `wm-button"`                                          | Button Control                  |
+| `wm-checkbox"`                                        | CheckBoz Control                |
+| `wm-combobox`                                         | ComboBox Control                |
+| `wm-datagridviewflex`                                 | FlexGrid Control                |
+| `wm-groupbox`                                         | GroupBox Control                |
+| `wm-label`                                            | Label Control                   |
+| `wm-listview`                                         | ListView Control                |
+| `wm-picturebox"`                                      | PictureBox Control              |
+| `wm-statusstrip`                                      | StatusStrip Control             |
+| `wm-textbox"`                                         | TextBox Control                 |
+| `wm-toolstrip`                                        | ToolStrip Control               |
 | `wm-window`                                           | Window                          |
 
-
-### HTML snippets
+### Typescript Snippets
 
 | Snippets                                              | Purpose                         |
 | ------------------------------------------------------|---------------------------------|
-| `pb-window`                                           |                                 |
+| `wm-window`                                           |                                 |
 
 ## Installation
 

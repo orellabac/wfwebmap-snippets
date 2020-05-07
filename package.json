@@ -24,6 +24,10 @@
             {
                 "language": "html",
                 "path": "./snippets/html.json"
+            },
+            {
+                "language": "csharp",
+                "path": "./snippets/csharp.json"
             }
         ]
     }

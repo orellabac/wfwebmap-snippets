@@ -1,0 +1,54 @@
+{
+    "wm-usings": {
+        "prefix":"wm-usings",
+        "body":[
+            "using System;",
+            "using Mobilize.Web;",
+            "using Mobilize.WebMap.Common.Attributes;"
+        ],
+        "description":"Inserts Usings required by webmap"
+    },
+    "wm-prop": {
+        "prefix":"wm-prop",
+        "body":[
+            "  [Intercepted]",
+            "  public ${1:type} ${2:name} {get;set;} = new ${1:type}();"
+        ],
+        "description":"Adds a new property"
+    },
+    "wm-window": {
+        "prefix":"wm-window",
+        "body":[
+            "[Observable]",
+            "public partial class ${1:ClassName} : Form {",
+            "  public ${1:ClassName}()",
+            "       : base()",
+            "  {",
+            "      InitializeComponent();",
+            "  }",
+            "",
+            "  [Designer]",
+            "  private void InitializeComponent()",
+            "  {",
+            "     $0",
+            "     this.FormBorderStlye = FormBorderStyle.FixedDialog;",
+            "     this.MaximizeBox = true;",
+            "     this.MinimizeBox = true;",
+            "     this.Name = \"${1:ClassName}\";",
+            "     this.Text = \"${1:ClassName}\";",
+            "     this.Load   += new EventHandler(this.Form_Load);",
+            "     this.Closed += new EventHandler(this.Form_Closed);",
+            "  }",
+            "",
+            "  private void Form_Load(object sender, EventArgs eventArgs)",
+            "  {",
+            "  }",
+            "",
+            "  private void Form_Close(object sender, EventArgs eventArgs)",
+            "  {",
+            "  }",
+            "}"
+        ],
+        "description":"Window"
+    }
+}
