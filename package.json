@@ -3,7 +3,7 @@
     "displayName": "WFNET WebMap Snippets",
     "description": "Code snippets for code migrated from Powerbuilder VB6 or WinForms to Angular and HTML5",
     "logo":"images/logo.png",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher":"mrojas",
     "repository": {
         "type": "git",

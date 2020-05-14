@@ -18,13 +18,13 @@ Alternatively, press `Ctrl` + `Space` (Window, Linux) or `Cmd`+`Space` (macOS)
 | ------------------------------------------------------|---------------------------------|
 | `wm-adodatacontrol`                                   | ADO Data Control                |
 | `wm-button"`                                          | Button Control                  |
-| `wm-checkbox"`                                        | CheckBoz Control                |
+| `wm-checkbox`                                        | CheckBoz Control                |
 | `wm-combobox`                                         | ComboBox Control                |
 | `wm-datagridviewflex`                                 | FlexGrid Control                |
 | `wm-groupbox`                                         | GroupBox Control                |
 | `wm-label`                                            | Label Control                   |
 | `wm-listview`                                         | ListView Control                |
-| `wm-picturebox"`                                      | PictureBox Control              |
+| `wm-picturebox`                                      | PictureBox Control              |
 | `wm-statusstrip`                                      | StatusStrip Control             |
 | `wm-textbox"`                                         | TextBox Control                 |
 | `wm-toolstrip`                                        | ToolStrip Control               |
