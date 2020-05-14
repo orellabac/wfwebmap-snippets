@@ -2,8 +2,8 @@
     "name": "wfwebmap-snippets",
     "displayName": "WFNET WebMap Snippets",
     "description": "Code snippets for code migrated from Powerbuilder VB6 or WinForms to Angular and HTML5",
-    "logo":"images/logo.png",
-    "version": "0.0.4",
+    "logo":"logo.png",
+    "version": "0.0.6",
     "publisher":"mrojas",
     "repository": {
         "type": "git",
