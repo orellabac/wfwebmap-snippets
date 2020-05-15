@@ -1,4 +1,39 @@
 {
+    "wm-controller": {
+        "prefix":"wm-controller",
+        "body":[
+            "namespace ${1:namespace}",
+            "{",
+            "    using System.Collections;",
+            "    using System.Collections.Generic;",
+            "    using Microsoft.AspNetCore.Mvc;",
+            "    using System.Data;",
+            "    using System.Linq;",
+            "    using Microsoft.Extensions.Logging;",
+            "",
+            "    [Route(\"api/[controller]\")]",
+            "    [ApiController]",
+            "    public class ${2:Controller} : ControllerBase",
+            "    {",
+            "        private ILogger<${2:Controller}> logger;",
+            "",
+            "        public ${2:Controller}(ILogger<${2:Controller}> logger) {",
+            "            this.logger = logger;",
+            "        }",
+            "",
+            "       [HttpGet(\"{id}\")]",
+            "        public IEnumerable Get(WindowOne window)",
+            "        {",
+            "            this.logger.LogInformation($\"Start controller {nameof(${2:Controller})}\");",
+            "            // ADD your code here",
+            "           $0",
+            "            this.logger.LogInformation($\"Finish controller {nameof(${2:Controller})}\");",
+            "       }",
+            "    }",
+            "}"
+        ],
+        "description":"Example Controller Webmap"
+    },   
     "wm-usings": {
         "prefix":"wm-usings",
         "body":[
